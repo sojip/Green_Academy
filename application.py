@@ -7,6 +7,3 @@ def acceuil():
     courses_titles = ["Title 1", "Title2", "Title3"]
     categories = ["Marketing" , "Social Network", "Entrepreneurship", "Subject N° ...", "Subject N° ..", "Subject N° .."]
     return render_template("accueil.html", courses_titles = courses_titles, categories = categories)
-
-if __name__ == "__main__":
-    app.run(debug=True)
