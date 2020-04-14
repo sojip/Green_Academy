@@ -1,0 +1,79 @@
+html {
+  scroll-behavior: smooth; }
+
+.navbar {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black; }
+
+#brandname {
+  color: #789D4A;
+  margin-left: 15px;
+  font-weight: bolder; }
+
+.to_add_left_border {
+  border-left: 5px solid black; }
+
+.sign_in_buttons {
+  margin-right: 10px; }
+
+.btn-outline {
+  background-color: #789D4A;
+  border-color: #789D4A;
+  color: white; }
+
+#sign_in_button {
+  color: #789D4A;
+  background-color: white; }
+
+.btn-outline:hover {
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  background-color: white; }
+
+#hero {
+  background-image: url("/static/img/undraw_Graduation_ktn0.svg");
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 30%;
+  height: 200px; }
+
+#after_hero {
+  display: flex;
+  align-items: center; }
+
+#working_woman {
+  width: 50%; }
+
+.title_text {
+  text-align: center; }
+
+#subjects_title {
+  margin-bottom: 50px;
+  margin-top: 30px; }
+
+.subjects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.border-success {
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  color: #789D4A; }
+
+.border-success:hover {
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #789d4a); }
+
+.stretched-link:hover {
+  text-decoration: none; }
+
+.fa {
+  font-size: 30px !important; }
+
+.footer {
+  margin-bottom: 35px; }
+
+/*# sourceMappingURL=style.css.map */
